@@ -1,0 +1,125 @@
+import time
+
+
+
+print("Welcome to Quizzer, this quiz will be about global warming and climate change.")
+time.sleep(2.5)                
+
+                                                        
+username = input("enter a Username! ")
+time.sleep(1)
+print("Welcome", username, "\nplease enter age below. ")           #welcome message
+time.sleep(2)
+
+                                                        
+birth_year = input("Enter your age: ")
+age = 2021 - int(birth_year)                       #age
+print(age)
+
+
+Tutorial = input("Have you ever played before?")           #played before?
+time.sleep(1.8)
+
+if Tutorial == "Yes":
+        print("You must be an expert then.")
+                                                               #yes or no
+if Tutorial == "yes":
+        print("Must be an expert then.")
+else:
+        print("Please enter yes or no.")
+
+                                         
+if Tutorial == "No":
+
+        print("I guess i should teach you.")
+        time.sleep(2)
+        print("The first thing that i will ask you is how many questions you will want to answer.")
+        time.sleep(2.5)
+        print("between 1 - 5.")
+        time.sleep(3.5)
+        print("The questions will be about global warming and climate change.")
+        time.sleep(3)
+        print("some answers will be serious and will be correct.")
+        time.sleep(3)
+        print("others might be silly and incorrect.")
+        time.sleep(3)
+        print("you will be asked to select A,B,C, or D to answer the questions.")
+        time.sleep(3)
+        print("at the end of the quiz you will have a final score for how  many you got right.")
+        time.sleep(3)
+        print("I hope this helped...Good Luck")
+        time.sleep(3)
+                                               #
+if Tutorial == "no":
+        print("I guess i should teach you")
+
+        print("The first thing that i will ask you is how many questions you will want to answer.")
+        time.sleep(2.5)
+        print("between 1 - 5.")
+        time.sleep(3.5)
+        print("The questions will be about global warming and climate change.")
+        time.sleep(3)
+        print("some answers will be serious and will be correct.")
+        time.sleep(3)
+        print("others might be silly and incorrect.")
+        time.sleep(3)
+        print("you will be asked to select A,B,C, or D to answer the questions.")
+        time.sleep(3)
+        print("at the end of the quiz you will have a final score for how  many you got right.")
+        time.sleep(3)
+        print("I hope this helped...Good Luck")
+        time.sleep(3)
+
+
+
+
+
+number = input("How many questions would you like to answer? 1 - 5!")
+print("You chose " + number)
+
+if number == "1":                                      #number of questions
+        for item in number:
+                print(item + " Question.")
+
+if number == "2":
+        for item in number:
+                print(item + " Questions.")
+
+if number == "3":
+        for item in number:
+                print(item + " Questions.")
+                                                          # Chose 1 - 5
+if number == "4":
+        for item in number:
+                print(item + " Questions.")
+
+if number == "5":
+        for item in number:
+                print(item + " Questions.")
+
+
+
+print("Question One! ")
+time.sleep(1)
+question = print("What does global warming do to the earth? ")
+
+
+print("A: ")
+time.sleep(1)
+print("B: ")
+time.sleep(1)
+print("C: ")
+time.sleep(1)
+print("D: ")
+
+guess = input("Choose which sentence is correct, answer with the letter A, B, C, or D!")
+        
+
+if guess == ("A"):
+        print("Correct well done! ")
+if guess == ("B"):
+        print("Sorry that is incorrect. ")
+if guess == ("C"):
+        print("Sorry that is incorect try again after. ")
+if guess == ("D"):
+        print("Unfortunalty that is Incorrect try next question. ")
