@@ -1,0 +1,445 @@
+import time
+
+
+
+print("Welcome to Quizzer, this quiz will be about global warming and climate change.")
+time.sleep(2.5)                
+
+                                                        
+username = input("enter a Username! ")
+time.sleep(1)
+print("Welcome", username, "\nplease enter age below. ")           #welcome message
+time.sleep(2)
+
+                                                        
+birth_year = input("Enter your age: ")
+age = 2021 - int(birth_year)                       #age
+print(age)
+
+
+Tutorial = input("Have you ever played before?")           #played before?
+time.sleep(1.8)
+
+if Tutorial == "Yes":
+        print("You must be an expert then.")
+                                                               #yes or no
+if Tutorial == "yes":
+        print("Must be an expert then.")
+else:
+        print("Please enter yes or no.")
+
+                                         
+if Tutorial == "No":
+
+        print("I guess i should teach you.")
+        time.sleep(2)
+        print("The first thing that i will ask you is how many questions you will want to answer.")
+        time.sleep(2.5)
+        print("between 1 - 5.")
+        time.sleep(3.5)
+        print("The questions will be about global warming and climate change.")
+        time.sleep(3)
+        print("some answers will be serious and will be correct.")
+        time.sleep(3)
+        print("others might be silly and incorrect.")
+        time.sleep(3)
+        print("you will be asked to select A,B,C, or D to answer the questions.")
+        time.sleep(3)
+        print("at the end of the quiz you will have a final score for how  many you got right.")
+        time.sleep(3)
+        print("I hope this helped...Good Luck")
+        time.sleep(3)
+                                               #
+if Tutorial == "no":
+        print("I guess i should teach you")
+
+        print("The first thing that i will ask you is how many questions you will want to answer.")
+        time.sleep(2.5)
+        print("between 1 - 5.")
+        time.sleep(3.5)
+        print("The questions will be about global warming and climate change.")
+        time.sleep(3)
+        print("some answers will be serious and will be correct.")
+        time.sleep(3)
+        print("others might be silly and incorrect.")
+        time.sleep(3)
+        print("you will be asked to select A,B,C, or D to answer the questions.")
+        time.sleep(3)
+        print("at the end of the quiz you will have a final score for how  many you got right.")
+        time.sleep(3)
+        print("I hope this helped...Good Luck")
+        time.sleep(3)
+
+
+
+
+
+number = input("How many questions would you like to answer? 1 - 5!")
+print("You chose " + number)
+
+if number == "1":                                      #number of questions
+        for item in number:
+                print(item + " Question.")
+
+if number == "2":
+        for item in number:
+                print(item + " Questions.")
+
+if number == "3":
+        for item in number:
+                print(item + " Questions.")
+                                                          # Chose 1 - 5
+if number == "4":
+        for item in number:
+                print(item + " Questions.")
+
+if number == "5":
+        for item in number:
+                print(item + " Questions.")
+
+         
+         
+         
+                         # all number questions
+         
+                                        
+if number == ("1"):                                                               # QUESTION ONE
+
+        print("=========== First and only Question! ============")
+        time.sleep(1.1)
+        print("Pick, A, B, C, or D")
+        time.sleep(1.5)
+        print("What does global warming do to the earth? ")      # QUESTION
+        time.sleep(1.5)
+        print("A: Increased sea level, more intense heat waves. ")
+        time.sleep(1.5)
+        print("B: Helps plants grow. ")
+        time.sleep(1.5)
+        print("C: Makes money grow on trees. ")
+        time.sleep(1.5)
+        print("D: Increases rain, higher extinction rates. ")
+        Guess = input("Fill in here: ")
+        if Guess == "A":
+                print("Well done that is Correct! Thanks for playing. ")
+        if Guess == "a":
+                print("Well done that is Correct! Thanks for playing. ")
+        else:
+                print("Sorry that is incorrect.")
+
+                                        # QUESTION TWO
+  
+if number == ("2"):                                                              # QUESTION TWO
+
+        print("============ First question good luck! ============ ")
+        time.sleep(1.1)
+        print("Pick, A, B, C, D")
+        time.sleep(1.1)
+        print("What is climate change?")                     # QUESTION
+        time.sleep(1.1)
+        print("A: reducing the amount of solar radiation reaching the Earth's surface ")
+        time.sleep(1.1)
+        print("B: increase income inequalities between and within countries ")
+        time.sleep(1.1)
+        print("C: alteration of temperature and typical weather patterns. ")
+        time.sleep(1.1)
+        print("D: long term rising of the Earth's temperature. ")
+        answer_1 = input("Fill in here: ")
+        if answer_1 == "C":
+                print("Well done that is Correct! ")
+        if answer_1 == "c":
+                
+                print("Well done that is Correct! ")
+        else:
+                print("Sorry that is incorrect. ")
+
+                
+                                                                               
+        print("========= Next question! =========== ")
+        time.sleep(1.1)
+        print("Pick, A, B, C, D")
+        time.sleep(1.1)
+        print("What is a climate change impact?")                     # QUESTION
+        time.sleep(1.1)
+        print("A: Increased heat, drought and insect outbreaks. ")
+        time.sleep(1.1)
+        print("B: alteration of temperature and typical weather patterns. ")
+        time.sleep(1.1)
+        print("C: Changes the color of the moon. ")
+        time.sleep(1.1)
+        print("D: long term rising of the Earth's temperature ")
+        answer_1 = input("Fill in here: ")
+        if answer_1 == "A":
+                print("Well done that is Correct!, Thank you for playing! ")
+        if answer_1 == "a":
+                print("Well done that is correct, Thanks for playing.")
+        else:
+                print("Sorry that is incorrect. Thanks for playing! ")
+
+if number == ("3"):                                                                            # QUESTION THREE
+
+                print("============First question good luck!=========== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("What is global warming?  ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: Eating less. ")
+                time.sleep(1.1)
+                print("B: Increasing sea levels. ")
+                time.sleep(1.1)
+                print("C:increase in the earth's temperature due to greenhouse effect by increased levels of carbon dioxide.")
+                time.sleep(1.1)
+                print("D: Science, How trees grow, how the sun was made. ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "C":
+                        print("Well done that is Correct! ")
+
+                if answer_1 == "c":
+                        print("Well done that is correct.")
+                else:
+                        print("Sorry that is incorrect. ")
+                
+
+                print("=======Next question good luck!======== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("What causes global warming? ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: a sweetened frozen food typically eaten as a snack or dessert.")
+                time.sleep(1.1)
+                print("B: greenhouse gases to those naturally occurring in the atmosphere, increasing the greenhouse effect. ")
+                time.sleep(1.1)
+                print("C: a hive generally used for geting honey. ")
+                time.sleep(1.1)
+                print("D: like a tv but smaller, in a headset with sticks as remotes. ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "B":
+                        print("Well done that is Correct! ")
+                if answer_1 == "b":
+                        print("Well done that is correct!")
+                else:
+                        print("Sorry that is incorrect. ")
+
+
+
+                print("========third question good luck======== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("What does global warming have to do with severe weather, like storms, heat waves, droughts, and hurricanes?  ")                         # QUESTION
+                time.sleep(1.1)
+                print("A:  increases evaporation on land, create conditions and more wildfire. ")
+                time.sleep(1.1)
+                print("B: Money on trees. ")
+                time.sleep(1.1)
+                print("C: Produces more chromosomes for humans ")
+                time.sleep(1.1)
+                print("D: Increasing sea levels, hotter sun. ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "A":
+                        print("Well done that is Correct! ")
+                if answer_1 == "a":
+                        print("Well done that is correct thanks for playing")
+                else:
+                        print("Sorry that is incorrect. ")
+                                                       
+if number == ("4"):                                                                             # QUESTION FOUR
+
+                print("=========First question good luck!==========")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("does food and water get affected by global warming?  ")                     # QUESTION
+                time.sleep(2.1)
+                print("A: Yes, higher temperatures, extreme weather, drought. ")
+                time.sleep(2.1)
+                print("B: No, Just bad weather  ")
+                time.sleep(2.1)
+                print("C:Yes, in many different ways.")
+                time.sleep(2.1)
+                print("D:No")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "A":
+                        print("Well done that is Correct! ")
+                if answer_1 == "a":
+                        print("Well done that is correct.")
+                else:
+                        print("Sorry that is incorrect. ")
+
+
+
+                print("=========Second question good luck!========== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("What is climate change mitigation?  ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: Going to a new universe ")
+                time.sleep(1.1)
+                print("B: Helping others ")
+                time.sleep(1.1)
+                print("C: making sure we do things right")
+                time.sleep(1.1)
+                print("D: Climate mitigation means reducing or stabilizing the level of greenhouse gases in the atmosphere. ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "D":
+                        print("Well done that is Correct! ")
+                if answer_1 == "d":
+                        print("Well done that is correct.")
+                else:
+                        print("Sorry that is incorrect. ")
+
+                
+                print("===========Third question good luck!========== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("What is climate change adaptation ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: Migrating to a new country.")
+                time.sleep(1.1)
+                print("B: Helping change the way we work.")
+                time.sleep(1.1)
+                print("C: Climate adaptation means adjusting to different habbitats. ")
+                time.sleep(1.1)
+                print("D: adapting to a new earth.")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "C":
+                        print("Well done that is Correct! ")
+                if answer_1 == "c":
+                        print("Well done that is Correct.")
+                else:
+                        print("Sorry that is incorrect. ")
+
+
+                print("===========Forth question good luck!=========== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print(" What is climate finance?  ")                     # QUESTION
+                time.sleep(1.1)
+                print("A:Giving the goverment our money. ")
+                time.sleep(1.1)
+                print("B:Climate finance is the investment of private or public money into programs")
+                time.sleep(1.1)
+                print("C: Working ")
+                time.sleep(1.1)
+                print("D:paying tax ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "B":
+                        print("Well done that is Correct! Thanks for playing.")
+                if answer_1 == "b":
+                        print("Well done that is correct thatnks for playing.")
+                else:
+                        print("Sorry that is incorrect. ")
+
+if number == ("5"):                                                                                 # QUESTION FIVE
+        
+                print("============First question good luck!============ ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print("What are some things that we can do to help stop Global warming?")                     # QUESTION
+                time.sleep(1.1)
+                print("A: Power your home with renewable energy. ")
+                time.sleep(1.1)
+                print("B: Actually eat the food you buy ")
+                time.sleep(1.1)
+                print("C: Buy better bulbs. ")
+                time.sleep(1.1)
+                print("D: Pull the plug(s). ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "A":
+                        print("Well done that is Correct! ")
+                if answer_1 == "a":
+                        print("Well done that is correct")
+                else:
+                        print("Sorry that is incorrect. ")
+
+
+
+                print("===========Second question good luck!============ ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print(" Does the ozone hole cause global warming? ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: greenhouse. ")
+                time.sleep(1.1)
+                print("B: rapid increase in Earth's average surface. ")
+                time.sleep(1.1)
+                print("C: scientists ")
+                time.sleep(1.1)
+                print("D: The role the ozone hole itself plays in global warming ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "D":
+                        print("Well done that is Correct! ")
+                if answer_1 == "d":
+                        print("That is corect well done! ")
+                else:
+                        print("Sorry that is incorrect. ")
+
+                
+                print("=============Third question good luck!============ ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print(" Has Earth continued to warm since 1998? ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: No. ")
+                time.sleep(1.1)
+                print("B: Yes. ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "B":
+                        print("Well done that is Correct! ")
+                if answer_1 == "b":
+                        print("Well done that is correct! ")
+                else:
+                        print("Sorry that is incorrect. ")
+
+
+                print("============Forth question good luck!=========== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print(" Is the ocean continuing to warm?  ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: ​Yes, the ocean is continuing to warm.")
+                time.sleep(1.1)
+                print("B: No, the ocean is continuing to warm. ")
+                time.sleep(1.1)
+                print("C: maybe")
+                time.sleep(1.1)
+                print("D: Penguins. ")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "A":
+                        print("Well done that is Correct! ")
+                if answer_1 == "a":
+                        print("Well done that is correct! ")
+                else:
+                        print("Sorry that is incorrect. ")
+
+
+                print("===========Fith question good luck!=========== ")
+                time.sleep(1.1)
+                print("Pick, A, B, C, D")
+                time.sleep(1.1)
+                print(" Do scientists agree on climate change? ")                     # QUESTION
+                time.sleep(1.1)
+                print("A: Yes, the vast majority of actively publishing climate scientists ")
+                time.sleep(1.1)
+                print("B: No, they all think that it is faked by government. ")
+                time.sleep(1.1)
+                print("C: Scientists are lying to us. ")
+                time.sleep(1.1)
+                print("D: Scientists are secret agents in disguise.")
+                answer_1 = input("Fill in here: ")
+                if answer_1 == "A":
+                        print("Well done that is Correct! ")
+                if answer_1 == "a":
+                        print("Well donet that is correct! ")
+                else:
+                        print("Sorry that is incorrect.  ")
+
+
